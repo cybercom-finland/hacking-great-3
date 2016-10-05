@@ -1,2 +1,3 @@
-# hacking-great-3
-Pre-requisite information and code for the #HackingGreat sauna evening in 2016-11-10 by Cybercom.
+# \#HackingGreat 3
+
+See: http://cybercom-finland.github.io/hacking-great-3/
