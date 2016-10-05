@@ -59,5 +59,5 @@ The repository will contain a set of pre-generated waveforms for different seed 
 
 ## Compulsory Copyright Notice
 
-All sound content belongs to their respective copyright holders. The concatenated WAV file is meant for academic research / teaching only on the basis or respective
+All sound content belongs to their respective copyright holders. The concatenated WAV file is meant for academic research / teaching only on the basis of the respective
 [copyright exceptions in the Finnish copyright law](http://www.finlex.fi/fi/laki/ajantasa/1961/19610404#L2P14), American fair use and also noting that the property of a Communist is common.
