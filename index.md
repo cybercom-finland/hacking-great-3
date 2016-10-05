@@ -19,29 +19,33 @@ Collaborative Spotify playlist:
 
 ---
 
-## Tech Track 1: ...
-
-### Prerequisites and tools:
-* Node.js: [https://nodejs.org](https://nodejs.org)
-* Any editor
-
----
-
-## Tech Track 2: ...
+## Tech Track 1: Docker on Cloud Platforms by Dockerist Toni Ylenius
+Play with a pipeline where tools like docker, swarm mode, openshift, AWS, terraform are involved. To get started there is a trivial web application to play with.
 
 ### Prerequisites and tools:
 * ...
 
 ---
 
-## Tech Track 3: ...
+## Tech Track 2: Physical UI with light button Launchpads by Buttonist Rolf Koski
+...
 
 ### Prerequisites and tools:
 * ...
 
 ---
 
-## Tech Track 4: ...
+## Tech Track 3: Tensorflow with WaveNet and Communism by The Mad Machine Learning Scientist Tero Keski-Valkama
+...
+
+### Prerequisites and tools:
+* ...
+
+---
+
+## Tech Track 4: ELK Stack with Docker / Docker Compose by Yet Another Dockerist Jouni Mykkänen
+Data source for the other tracks.
+Learn a quick setup for ELK stack, import your data and visualize it.
 
 ### Prerequisites and tools:
 * ...
