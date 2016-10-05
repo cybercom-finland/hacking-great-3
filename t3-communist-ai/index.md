@@ -14,7 +14,7 @@ The `corpus` directory contains two files (after you downloaded the `corpus.wav`
 
 Validation set is skipped, as the real validation happens in generating sounds with the system.
 
-![Process](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/images/process.png:medium "Process")
+![Process](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/images/process.png "Process")
 
 ### Training
 
