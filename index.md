@@ -27,8 +27,8 @@ Play with a pipeline where tools like docker, swarm mode, openshift, AWS, terraf
 
 ---
 
-## Tech Track 2: Physical UI with light button Launchpads by Buttonist Rolf Koski
-...
+## Tech Track 2: Physical UI with Light Button Launchpads by Buttonist Rolf Koski
+See: [https://us.novationmusic.com/launch/launchpad](https://us.novationmusic.com/launch/launchpad)
 
 ### Prerequisites and tools:
 * ...
@@ -36,10 +36,13 @@ Play with a pipeline where tools like docker, swarm mode, openshift, AWS, terraf
 ---
 
 ## Tech Track 3: Tensorflow with WaveNet and Communism by The Mad Machine Learning Scientist Tero Keski-Valkama
-...
+We will check out a pre-trained [WaveNet](https://deepmind.com/blog/wavenet-generative-model-raw-audio/) network that has been fed hundreds of hours of Communist songs.
+This is interrogated to make music to our ears.
+The pre-requisite project is still work in progress, coming together here: [https://github.com/keskival/wavenet_synth](https://github.com/keskival/wavenet_synth)
 
 ### Prerequisites and tools:
-* ...
+* Read about [WaveNet](https://deepmind.com/blog/wavenet-generative-model-raw-audio/), check out the examples.
+* Install [TensorFlow](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html), the CPU version, because GPUs do not have enough memory for this purpose and do not give performance improvement. If you install the GPU version, that is fine, but you probably need to disable the GPU acceleration by using `export CUDA_VISIBLE_DEVICES=-1`
 
 ---
 
