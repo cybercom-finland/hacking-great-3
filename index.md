@@ -45,6 +45,8 @@ This is interrogated to make music to our ears.
 The pre-requisite project is still work in progress, coming together here: [https://github.com/keskival/wavenet_synth](https://github.com/keskival/wavenet_synth).
 Don't worry, we will add the cleaned up final code to this repo well before the event, alongside with the corpus data, the pre-trained network and instructions.
 
+* [Instructions here!](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/)
+
 ### Prerequisites and tools:
 * Read about [WaveNet](https://deepmind.com/blog/wavenet-generative-model-raw-audio/), check out the examples.
 * Install [TensorFlow](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html), the CPU version, because GPUs do not have enough memory for this purpose and do not give performance improvement. If you install the GPU version, that is fine, but you probably need to disable the GPU acceleration by using `export CUDA_VISIBLE_DEVICES=-1`
