@@ -9,8 +9,9 @@ Download the [corpus.wav](https://drive.google.com/file/d/0B7ED5AY6wP1Cd1prV0N6S
 It's quite large, almost 1 GB. You only need it if you want to try training the network.
 
 The `corpus` directory contains two files (after you downloaded the `corpus.wav`):
-* `corpus.wav`: approximately 1.5 hours of Communist music concatenated to a single channel 48 kHz WAV file.
-* `test.wav`: A Communist music piece not included in the corpus for use as a test example.
+
+ * `corpus.wav`: approximately 1.5 hours of Communist music concatenated to a single channel 48 kHz WAV file.
+ * `test.wav`: A Communist music piece not included in the corpus for use as a test example.
 
 Validation set is skipped, as the real validation happens in generating sounds with the system.
 
