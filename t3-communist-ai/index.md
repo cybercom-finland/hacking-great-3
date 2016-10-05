@@ -35,6 +35,28 @@ It takes a long time (several hours or so) to get reasonably long wave forms, bu
 
 The repository will contain a set of pre-generated waveforms for different seed signals (TODO), so you can skip this step.
 
+## Corpus Sources Used
+
+ * Test sample: [Arja Saijonmaa - Komintern](https://www.youtube.com/watch?v=0-1XOa8_8GQ)
+ * [Arja Saijonmaa - Taistojen tiellä](https://www.youtube.com/watch?v=4Bb8o6ECKEs)
+ * [Barrikadimarssi](https://www.youtube.com/watch?v=3oXNs5sP_T4)
+ * [Kansainvälinen](https://www.youtube.com/watch?v=xW9VBLH-0_s)
+ * [Kenen joukoissa seisot - (Kom Teatteri)](https://www.youtube.com/watch?v=qJjaIG4lhCs)
+ * [Kolme pikku miestä](https://www.youtube.com/watch?v=-mWtwoWB3XI)
+ * [Köyhälistön marssi](https://www.youtube.com/watch?v=shJm-l3c54s)
+ * [Kulttuuritalon kuoro - Kansainvälinen](https://www.youtube.com/watch?v=pbLP-stgog0)
+ * [Liisa Tavi - Lukevan työläisen kysymyksiä](https://www.youtube.com/watch?v=A5ipCT9w940)
+ * [Nuorison marssi](https://www.youtube.com/watch?v=7V21y_G8EQU)
+ * [Paavo Maijanen - Pahat partisaanit](https://www.youtube.com/watch?v=h-sw0RmNHKc)
+ * [Punaorvon vala - (Kom Teatteri)](https://www.youtube.com/watch?v=F1UX6UlHnBY)
+ * [Red Army Choir ~ Internationale](https://www.youtube.com/watch?v=nMpmCHnRjNQ)
+ * [Riistäjän lait - (Kom Teatteri)](https://www.youtube.com/watch?v=GsF_6UmEuY4)
+ * [Savolainen Balladi](https://www.youtube.com/watch?v=Bgpt94GWjXE)
+ * [Toveri mitä odotat - (Kom Teatteri)](https://www.youtube.com/watch?v=YPBpioBZg1s)
+ * [Vapun soittolista 2016 Lauluja kansojen taistelusta](https://www.youtube.com/watch?v=sZbyFUeFjoQ)
+ * [Veli sisko](https://www.youtube.com/watch?v=OHWJr2qnZX8)
+ 
+
 ## Compulsory Copyright Notice
 
 All sound content belongs to their respective copyright holders. The concatenated WAV file is meant for academic research / teaching only on the basis or respective
