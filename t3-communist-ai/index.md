@@ -14,6 +14,8 @@ The `corpus` directory contains two files (after you downloaded the `corpus.wav`
 
 Validation set is skipped, as the real validation happens in generating sounds with the system.
 
+![Process](images/process.png:medium "Process")
+
 ### Training
 
 You can well skip this step, as it takes a really long time (days) to properly train this kind of model. But you can kind of try it out and see where it is going.
