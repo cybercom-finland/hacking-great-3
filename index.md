@@ -15,6 +15,10 @@ Collaborative Spotify playlist:
 [http://open.spotify.com/user/cybercomfinland/playlist/3UjTaopdGCr4xc8TWUWKJH](http://open.spotify.com/user/cybercomfinland/playlist/3UjTaopdGCr4xc8TWUWKJH)
 (Using your own account, click "follow", and then you can add songs to the playlist)
 
+Get the code \([https://github.com/cybercom-finland/hacking-great-3](https://github.com/cybercom-finland/hacking-great-3)\) before the event using: `git clone https://github.com/cybercom-finland/hacking-great-3`
+
+Bring your own laptop with preferably Linux! Other operating systems can be made to work, but that is more work for you.
+
 ![Our walker, Pertti](https://pbs.twimg.com/media/CQKs2NtUAAA7XrZ.jpg:medium "Our walker, Pertti")
 
 ---
@@ -58,9 +62,9 @@ Learn a quick setup for ELK stack, import your data and visualize it.
 
 ## Tools common for all the tracks:
 * Your own laptop, preferrably Linux
+* Code \([https://github.com/cybercom-finland/hacking-great-3](https://github.com/cybercom-finland/hacking-great-3)\), using: `git clone https://github.com/cybercom-finland/hacking-great-3`
 * An IDE, for example:
   * Eclipse ([https://eclipse.org/](https://eclipse.org/)
   * Atom ([https://atom.io/](https://atom.io/))
   * WebStorm ([https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/))
   * or maybe even all of them.
-* Code: `git clone https://github.com/cybercom-finland/hacking-great-3` : [https://github.com/cybercom-finland/hacking-great-3](https://github.com/cybercom-finland/hacking-great-3)
