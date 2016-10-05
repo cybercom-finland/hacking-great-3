@@ -48,8 +48,9 @@ Don't worry, we will add the cleaned up final code to this repo well before the 
 * [Instructions here!](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/)
 
 ### Prerequisites and tools:
-* Read about [WaveNet](https://deepmind.com/blog/wavenet-generative-model-raw-audio/), check out the examples.
+* Install [Octave](https://www.gnu.org/software/octave/).
 * Install [TensorFlow](https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html), the CPU version, because GPUs do not have enough memory for this purpose and do not give performance improvement. If you install the GPU version, that is fine, but you probably need to disable the GPU acceleration by using `export CUDA_VISIBLE_DEVICES=-1`
+* Read about [WaveNet](https://deepmind.com/blog/wavenet-generative-model-raw-audio/), check out the examples.
 
 ---
 
