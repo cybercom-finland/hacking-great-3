@@ -1,3 +1,8 @@
+---
+layout: page
+title: #HackingGreat 3 @ Cybercom - Tech Track 3 - The Communist AI
+---
+
 ## Tech Track 3 - The Communist AI
 
 The `corpus` directory contains two files:
