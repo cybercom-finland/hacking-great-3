@@ -45,6 +45,7 @@ The repository will contain a set of pre-generated waveforms for different seed 
  * [Kolme pikku miestä](https://www.youtube.com/watch?v=-mWtwoWB3XI)
  * [Köyhälistön marssi](https://www.youtube.com/watch?v=shJm-l3c54s)
  * [Kulttuuritalon kuoro - Kansainvälinen](https://www.youtube.com/watch?v=pbLP-stgog0)
+ * [Lenin-setä asuu Venäjällä](https://www.youtube.com/watch?v=XjVnbVStaDA)
  * [Liisa Tavi - Lukevan työläisen kysymyksiä](https://www.youtube.com/watch?v=A5ipCT9w940)
  * [Nuorison marssi](https://www.youtube.com/watch?v=7V21y_G8EQU)
  * [Punaorvon vala - (Kom Teatteri)](https://www.youtube.com/watch?v=F1UX6UlHnBY)
