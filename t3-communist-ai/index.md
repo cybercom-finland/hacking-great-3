@@ -47,7 +47,6 @@ The repository will contain a set of pre-generated waveforms for different seed 
  * [Kulttuuritalon kuoro - Kansainvälinen](https://www.youtube.com/watch?v=pbLP-stgog0)
  * [Liisa Tavi - Lukevan työläisen kysymyksiä](https://www.youtube.com/watch?v=A5ipCT9w940)
  * [Nuorison marssi](https://www.youtube.com/watch?v=7V21y_G8EQU)
- * [Paavo Maijanen - Pahat partisaanit](https://www.youtube.com/watch?v=h-sw0RmNHKc)
  * [Punaorvon vala - (Kom Teatteri)](https://www.youtube.com/watch?v=F1UX6UlHnBY)
  * [Red Army Choir ~ Internationale](https://www.youtube.com/watch?v=nMpmCHnRjNQ)
  * [Riistäjän lait - (Kom Teatteri)](https://www.youtube.com/watch?v=GsF_6UmEuY4)
