@@ -24,10 +24,14 @@ Bring your own laptop with preferably Linux! Other operating systems can be made
 ---
 
 ## Tech Track 1: Docker on Cloud Platforms by Dockerist Toni Ylenius
+
 Play with a pipeline where tools like docker, swarm mode, openshift, AWS, terraform are involved. To get started there is a trivial web application to play with.
 
+* [Instructions here!](https://cybercom-finland.github.io/hacking-great-3/t1-docker/)
+
 ### Prerequisites and tools:
-* ...
+* Prefereably a Linux laptop with Docker already intalled
+* See also the instructions in Tech Track 4
 
 ---
 
