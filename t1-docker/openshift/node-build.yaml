@@ -11,10 +11,12 @@ spec:
     type: Git
     git:
       uri: "https://github.com/cybercom-finland/hacking-great-3"
+      ref: master
+    contextDir: "t1-docker/node-app"
   strategy:
     type: Docker
     dockerStrategy:
-      dockerfilePath: "t1-docker/node-app/"
+      dockerfilePath: Dockerfile
   output:
     to:
       kind: ImageStreamTag
