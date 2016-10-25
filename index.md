@@ -44,6 +44,7 @@ See: [https://us.novationmusic.com/launch/launchpad](https://us.novationmusic.co
 * [Instructions here!](https://cybercom-finland.github.io/hacking-great-3/t2-launchpad/)
 
 ### Prerequisites and tools:
+* install python (for node-gyp)
 * install https://www.npmjs.com/package/util
 * install https://www.npmjs.com/package/events
 * install https://www.npmjs.com/package/midi
