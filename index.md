@@ -38,6 +38,8 @@ Play with a pipeline where tools like docker, swarm mode, openshift, AWS, terraf
 ## Tech Track 2: Physical UI with Light Button Launchpads by Buttonist Rolf Koski
 See: [https://us.novationmusic.com/launch/launchpad](https://us.novationmusic.com/launch/launchpad)
 
+* [Instructions here!](https://cybercom-finland.github.io/hacking-great-3/t2-launchpad/)
+
 ### Prerequisites and tools:
 * ...
 
