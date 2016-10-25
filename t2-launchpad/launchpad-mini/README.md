@@ -1,13 +1,8 @@
 JavaScript library for interacting with the Novation Launchpad Mini.
 
-Other node.js libraries exist, which you may want to consider as well, like:
+Original version is here:
 
-* [launchpadder](https://www.npmjs.com/package/launchpadder)
-* [midi-launchpad](https://www.npmjs.com/package/midi-launchpad)
-* [phi-launchpad](https://www.npmjs.com/package/phi-launchpad)
-
-This yet-another-lauchpad-library exists because other libraries did not compile, did not start,
-are no longer maintained, or lack some useful features.
+* [launchpad-mini](https://github.com/Granjow/launchpad-mini)
 
 Some of the bonus features of this library:
 
