@@ -36,12 +36,17 @@ Play with a pipeline where tools like docker, swarm mode, openshift, AWS, terraf
 ---
 
 ## Tech Track 2: Physical UI with Light Button Launchpads by Buttonist Rolf Koski
+
+We will provide two, or hopefully three launchpad minis to play with during the session.
+
 See: [https://us.novationmusic.com/launch/launchpad](https://us.novationmusic.com/launch/launchpad)
 
 * [Instructions here!](https://cybercom-finland.github.io/hacking-great-3/t2-launchpad/)
 
 ### Prerequisites and tools:
-* ...
+* install https://www.npmjs.com/package/util
+* install https://www.npmjs.com/package/events
+* install https://www.npmjs.com/package/midi
 
 ---
 
