@@ -45,6 +45,7 @@ See: [https://us.novationmusic.com/launch/launchpad](https://us.novationmusic.co
 
 ### Prerequisites and tools:
 * install python 2.7 (for node-gyp), python >= 3.0 does not work
+* install libasound2-dev
 * install https://github.com/nodejs/node-gyp
 * install https://www.npmjs.com/package/util
 * install https://www.npmjs.com/package/events
