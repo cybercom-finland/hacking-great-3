@@ -45,6 +45,7 @@ See: [https://us.novationmusic.com/launch/launchpad](https://us.novationmusic.co
 
 ### Prerequisites and tools:
 * install python (for node-gyp)
+* install https://github.com/nodejs/node-gyp
 * install https://www.npmjs.com/package/util
 * install https://www.npmjs.com/package/events
 * install https://www.npmjs.com/package/midi
