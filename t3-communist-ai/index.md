@@ -8,7 +8,9 @@ title: #HackingGreat 3 @ Cybercom - Tech Track 3 - The Communist AI
 Download the [corpus8k.wav]() to the `corpus` directory. You only need it if you want to try training the network.
 Note that training the network takes weeks, but you can try it anyhow.
 
-If you want a better quality corpus, in 48k sample rate, there is [corpus.wav](https://drive.google.com/file/d/0B7ED5AY6wP1Cd1prV0N6SGhxZ0E/view?usp=sharing) also. Note that training that requires several months.
+The pre-trained model was trained on 48 kHz corpus.
+
+If you want the better quality corpus, in 48k sample rate, there is [corpus.wav](https://drive.google.com/file/d/0B7ED5AY6wP1Cd1prV0N6SGhxZ0E/view?usp=sharing) also. Note that training that requires several months.
 It's also quite large, almost 1 GB.
 
 The `corpus` directory contains two files (after you downloaded the `corpus.wav`):
@@ -40,6 +42,9 @@ well by the model when fed back to the input, causing internal representations i
 and this causes noise in the output, because the output neurons haven't seen such internal representations in
 training and their respective output is pretty much undefined. So, for not completely trained models
 the generated output is colored noise that has some amplitude envelope structure.
+
+After about 2 weeks of training on an i5-4690 CPU @ 3.50GHz with 24 GB of memory (Note that the model is too large
+for any consumer grade GPU system) we got something like this: [generated.wav](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/samples/generated.wav). Possibly before the event the quality is a bit better, but not much.
 
 ### Training
 
