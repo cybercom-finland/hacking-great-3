@@ -22,6 +22,10 @@ Validation set is skipped, as the real validation happens in generating sounds w
 
 ![Process](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/images/process.png "Process")
 
+## The Model
+
+The model used is a WaveNet with a receptive field size of 4093 samples. In 48 kHz wave it corresponds to 0.085 seconds of audio. It has a stack of four ten-layer exponential (1, 2, 4, 8, ..., 512) stride atrous convolutional layers.
+
 ## Caveat
 
 Training such large models will take 1-2 months using decent consumer grade hardware. Because of this, we weren't
