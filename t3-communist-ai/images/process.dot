@@ -1,6 +1,6 @@
 # Use: dot -Tpng -o process.png < process.dot
 digraph process {
-  corpus [label="Corpus of 1.5 h (931 MB) Communist music in a concatenated 48kHz WAV"]
+  corpus [label="Corpus of 1.5 h (931 MB) Communist music in a concatenated 8kHz WAV"]
   model [label="Pre-trained WaveNet Tensorflow model, deeply Communist in beliefs"]
   generated [label="A bank of generated sounds the Communist AI makes when interrogated"]
   corpus -> model

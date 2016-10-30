@@ -5,21 +5,45 @@ title: #HackingGreat 3 @ Cybercom - Tech Track 3 - The Communist AI
 
 ## Tech Track 3 - The Communist AI
 
-Download the [corpus.wav](https://drive.google.com/file/d/0B7ED5AY6wP1Cd1prV0N6SGhxZ0E/view?usp=sharing) to the `corpus` directory.
-It's quite large, almost 1 GB. You only need it if you want to try training the network.
+Download the [corpus8k.wav]() to the `corpus` directory. You only need it if you want to try training the network.
+Note that training the network takes weeks, but you can try it anyhow.
+
+If you want a better quality corpus, in 48k sample rate, there is [corpus.wav](https://drive.google.com/file/d/0B7ED5AY6wP1Cd1prV0N6SGhxZ0E/view?usp=sharing) also. Note that training that requires several months.
+It's also quite large, almost 1 GB.
 
 The `corpus` directory contains two files (after you downloaded the `corpus.wav`):
 
- * `corpus.wav`: approximately 1.5 hours of Communist music concatenated to a single channel 48 kHz WAV file.
- * `test.wav`: A Communist music piece not included in the corpus for use as a test example.
+ * `corpus8k.wav`: approximately 1.5 hours of Communist music concatenated to a single channel 8 kHz WAV file.
+ * `test8k.wav`: A Communist music piece not included in the corpus for use as a test example.
 
 Validation set is skipped, as the real validation happens in generating sounds with the system.
 
 ![Process](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/images/process.png "Process")
 
+## Caveat
+
+Training such large models will take 1-2 months using decent consumer grade hardware. Because of this, we weren't
+able to have a very well trained final model, but we will have some model that probably leans towards Leninism a bit
+even though it is not yet completely brainwashed yet.
+
+Joking aside, the technical side in training these models is that the model learns a decent prediction model
+pretty fast and gets decent loss values and 1-step forward outputs for training inputs. However, the network
+has a lot of uncertainty at occasional situations leading to snapping sounds in generation. That is because
+the model output gives a somewhat uniform distribution of amplitude values when uncertain. Sometimes these
+lead to snaps when in generation a somewhat improbable outlier is selected.
+
+Additionally in generation is is important that the model has totally saturated its internal representation
+probability distributions so that it does not have large volumes of value space dedicated to situations that
+do not match training data. This is because in generation the uncertainty accumulates quickly, and a small
+divergence in the generated output that is not exactly something seen in the training data is not generalized
+well by the model when fed back to the input, causing internal representations in non-training space volume,
+and this causes noise in the output, because the output neurons haven't seen such internal representations in
+training and their respective output is pretty much undefined. So, for not completely trained models
+the generated output is colored noise that has some amplitude envelope structure.
+
 ### Training
 
-You can well skip this step, as it takes a really long time (days) to properly train this kind of model. But you can kind of try it out and see where it is going.
+You can well skip this step, as it takes a really long time (months) to properly train this kind of model. But you can kind of try it out and see where it is going.
 Intermediate results are interesting to look at and play with also, even if they are very noisy. Not fully trained models cannot be used very effectively for generating
 waveforms, as the results are pretty much noise.
 
@@ -55,7 +79,10 @@ The repository will contain a set of pre-generated waveforms for different seed 
  * [Toveri mitä odotat - (Kom Teatteri)](https://www.youtube.com/watch?v=YPBpioBZg1s)
  * [Vapun soittolista 2016 Lauluja kansojen taistelusta](https://www.youtube.com/watch?v=sZbyFUeFjoQ)
  * [Veli sisko](https://www.youtube.com/watch?v=OHWJr2qnZX8)
- 
+
+## See Also
+ * Examples of sound generation using different temperatures in generation: [tensorflow-wavenet-temperature-demo](https://soundcloud.com/robinsloan/sets/tensorflow-wavenet-temperature-demo)
+ * A nice implementation of WaveNet in TensorFlow: [TensorFlow WaveNet](https://github.com/ibab/tensorflow-wavenet)
 
 ## Compulsory Copyright Notice
 
