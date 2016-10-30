@@ -5,7 +5,7 @@ title: #HackingGreat 3 @ Cybercom - Tech Track 3 - The Communist AI
 
 ## Tech Track 3 - The Communist AI
 
-Download the [corpus8k.wav]() to the `corpus` directory. You only need it if you want to try training the network.
+Download the [corpus8k.wav](https://drive.google.com/file/d/0B7ED5AY6wP1CcjR4U2pYTVlaOTg/view?usp=sharing) to the `corpus` directory. You only need it if you want to try training the network.
 Note that training the network takes weeks, but you can try it anyhow.
 
 The pre-trained model was trained on 48 kHz corpus.
