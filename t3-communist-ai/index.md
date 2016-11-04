@@ -63,6 +63,10 @@ NOTE: Training takes a lot of memory, so for a normal laptop it is quite probabl
 the machine freezes totally. It is recommended to turn off swap for such workloads. Regardless the training
 is so resource intensive that it will likely prevent all other use of the computer.
 
+You can train a model using a command `python process.py --model sound-model`. The --model parameter is
+optional, and specifies the starting point for training. Check also the parameters for the model
+in the file `params.py`.
+
 The repository will contain a pre-trained model, so you can skip this step.
 
 Training the model well (over 3 weeks on decent hardware) the results will look like something like this
@@ -82,7 +86,10 @@ Then this is repeated, and the system generates a sound wave based on the initia
 
 It takes a long time (several hours or so) to get reasonably long wave forms, but intermediate results can be interesting to look at.
 
-The repository will contain a set of pre-generated waveforms for different seed signals (TODO), so you can skip this step.
+You can generate a sound sample using a command `python generate.py`. Check also the parameters for the model
+in the file `params.py`. Note that in generation the model related parameters need to be identical to the parameters of the trained model for the snapshot restoration to work. You can play with the temperature parameter freely.
+
+The repository will contain a set of pre-generated waveforms for different seed signals and temperatures, so you can skip this step.
 
 Generating a few steps of a sample will look like something like this plotting the resultant data in Octave
 using the `plot_generation.m` Octave script.
