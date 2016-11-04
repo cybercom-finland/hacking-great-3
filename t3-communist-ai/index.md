@@ -7,6 +7,10 @@ title: #HackingGreat 3 @ Cybercom - Tech Track 3 - The Communist AI
 
 NOTE: This is not supposed to be a happy and easy track. You will likely achieve nothing else but learning how hard life is! If you don't have a super awesome PC, you won't be able to run training at all. Generation is a bit more forgiving.
 
+Note: Get the code here [https://github.com/cybercom-finland/hacking-great-3](https://github.com/cybercom-finland/hacking-great-3) using: `git clone https://github.com/cybercom-finland/hacking-great-3`.
+
+Update the code in the event to get the latest changes using: `git pull --rebase`.
+
 Download the [corpus8k.wav](https://drive.google.com/file/d/0B7ED5AY6wP1CcjR4U2pYTVlaOTg/view?usp=sharing) to the `corpus` directory. You only need it if you want to try training the network.
 Note that training the network takes weeks, but you can try it anyhow. Note: Name the corpus8k.wav as `corpus.wav`
 for the `process.py` to find it.
