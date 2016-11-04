@@ -69,11 +69,12 @@ Don't worry, we will add the cleaned up final code to this repo well before the 
 ---
 
 ## Tech Track 4: ELK Stack with Docker / Docker Compose by Yet Another Dockerist Jouni Mykkänen
-Data source for the other tracks.
-Learn a quick setup for ELK stack, import your data and visualize it.
+Learn a quick setup for ELK stack, import your data and visualize it. Use data from other tracks.
 
 ### Prerequisites and tools:
-* ...
+* Install docker and docker-compose
+* You need also some tool programs (text editor, curl, netcat)
+* Further info: https://github.com/cybercom-finland/hacking-great-3/blob/master/t4-elk/index.md
 
 ---
 
