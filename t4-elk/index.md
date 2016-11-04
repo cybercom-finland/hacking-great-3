@@ -11,7 +11,8 @@ The track provides an easy way to setup elasticsearch, logstash and kibana (ELK 
 
 ELK stack installion is based on docker and docker-compose tools. You need to install these at first.
 
-Seed details for setup from https://github.com/deviantony/docker-elk
+Seed details for setup: https://github.com/deviantony/docker-elk
+* For windows installation, read comments and discussions carefully. There are updates to the main instructions.
 
 ### Configure input
 
