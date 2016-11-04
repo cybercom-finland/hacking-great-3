@@ -8,7 +8,7 @@ title: #HackingGreat 3 @ Cybercom - Tech Track 3 - The Communist AI
 Download the [corpus8k.wav](https://drive.google.com/file/d/0B7ED5AY6wP1CcjR4U2pYTVlaOTg/view?usp=sharing) to the `corpus` directory. You only need it if you want to try training the network.
 Note that training the network takes weeks, but you can try it anyhow.
 
-The pre-trained model was trained on 48 kHz corpus.
+The pre-trained model was trained on 48 kHz corpus. The sound model is snapshotted to 
 
 If you want the better quality corpus, in 48k sample rate, there is [corpus.wav](https://drive.google.com/file/d/0B7ED5AY6wP1Cd1prV0N6SGhxZ0E/view?usp=sharing) also. Note that training that requires several months.
 It's also quite large, almost 1 GB.
@@ -59,7 +59,20 @@ You can well skip this step, as it takes a really long time (months) to properly
 Intermediate results are interesting to look at and play with also, even if they are very noisy. Not fully trained models cannot be used very effectively for generating
 waveforms, as the results are pretty much noise.
 
-The repository will contain a pre-trained model (TODO), so you can skip this step.
+NOTE: Training takes a lot of memory, so for a normal laptop it is quite probable that swapping will occur and
+the machine freezes totally. It is recommended to turn off swap for such workloads. Regardless the training
+is so resource intensive that it will likely prevent all other use of the computer.
+
+The repository will contain a pre-trained model, so you can skip this step.
+
+Training the model well (over 3 weeks on decent hardware) the results will look like something like this
+plotting the resultant data in Octave
+using the `plot_training.m` Octave script.
+
+![Training](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/images/training.png "Training")
+
+The trained model snapshots are stored to `sound-model` and `sound-model.meta` files. For convenience,
+the model that achieved the best test accuracy against the test input/output pair is stored in the `sound-model-best` and `sound-model-best.meta`.
 
 ### Generating Wave Forms
 
@@ -70,6 +83,18 @@ Then this is repeated, and the system generates a sound wave based on the initia
 It takes a long time (several hours or so) to get reasonably long wave forms, but intermediate results can be interesting to look at.
 
 The repository will contain a set of pre-generated waveforms for different seed signals (TODO), so you can skip this step.
+
+Generating a few steps of a sample will look like something like this plotting the resultant data in Octave
+using the `plot_generation.m` Octave script.
+
+![Generation](https://cybercom-finland.github.io/hacking-great-3/t3-communist-ai/images/generation.png "Generation")
+
+You can also skip this step if you want and do other things. There are some generated example outputs in the `samples` directory for different values of temperature. For example filename `0_95.wav` means a temperature
+0.95 was used in the generation. `1_0_2.wav`means this is the second example of generation using temperature of 1.0.
+
+Temperature 1.0 means using the estimated probability distribution as is in the generation. Lower temperature means weighting the most likely options more, avoiding the less likely alternatives. Higher temperature means giving less weight for the most likely option, and weighting
+the less likely options more. The order of likelihood does not change between the options, only relative weighting.
+
 
 ## Corpus Sources Used
 
