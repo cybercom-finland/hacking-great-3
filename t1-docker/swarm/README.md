@@ -32,6 +32,12 @@
 
     sh to-swarm.sh up
 
+## Note
+
+Remember to destroy the setup after hacking
+
+    terraform destroy
+
 ## Credits
 
 The infra code inspired by
