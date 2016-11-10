@@ -30,7 +30,13 @@
 
 ## Usage
 
+Run
+
     sh to-swarm.sh up
+
+and after a long time the (something to fix) app is in url
+
+    terraform output elb_dns_name
 
 ## Note
 
