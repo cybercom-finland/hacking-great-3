@@ -29,7 +29,7 @@ case "$1" in
 		local_id=`docker inspect --format="{{.Id}}" --type image "$IMAGE_NAME"`
 		for ip in `terraform output master_public_ip` `terraform output worker_public_ips`
 		do
-			remote_id=`awssh centos@"$ip" docker inspect --format="{{.Id}}" --type image "$IMAGE_NAME"`
+			remote_id=`awssh centos@"$ip" docker inspect --format="{{.Id}}" --type image "$IMAGE_NAME" || true`
 			if [ "$local_id" = "$remote_id" ]
 			then
 				echo "image up to date"
