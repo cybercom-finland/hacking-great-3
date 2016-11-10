@@ -1,8 +1,0 @@
-- docker
-  - integrate with ide
-
-- swarm
-  - tf: make it to use ecs registry
-  - modify number of nodes
-  - enable remote api
-  - load testing
