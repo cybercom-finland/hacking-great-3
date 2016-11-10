@@ -18,7 +18,7 @@ fi
 
 case "$1" in
 	build)
-		docker build -t "$IMAGE_NAME" node-app
+		docker build -t "$IMAGE_NAME" ../node-app
 		;;
 	up)
 		docker run -d -p 8080:8080 --name "$CONTAINER_NAME" "$IMAGE_NAME"

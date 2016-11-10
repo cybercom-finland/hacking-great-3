@@ -16,6 +16,6 @@ In the picture below there are some ideas what to hack with.
 
 ## Topics
 
-1. [Running code in local Docker](https://cybercom-finland.github.io/hacking-great-3/t1-docker/local.md)
-2. [OpenShift](https://cybercom-finland.github.io/hacking-great-3/t1-docker/openshift.md)
+1. [Running code in local Docker](https://cybercom-finland.github.io/hacking-great-3/t1-docker/local/)
+2. [OpenShift](https://cybercom-finland.github.io/hacking-great-3/t1-docker/openshift/)
 3. [Docker Swarm](https://github.com/cybercom-finland/hacking-great-3/tree/master/t1-docker/swarm/)
