@@ -16,7 +16,7 @@ provider "aws" {
     secret_key = "${var.secret_key}"
 }
 
-resource "random_id" "keypair_id" {
+resource "random_id" "owner_id" {
     keepers = {
         public_key = "${var.public_key}"
     }
@@ -24,7 +24,7 @@ resource "random_id" "keypair_id" {
 }
 
 resource "aws_key_pair" "key" {
-    key_name = "tf-key-${random_id.keypair_id.b64}"
+    key_name = "tf-key-${random_id.owner_id.b64}"
     public_key = "${var.public_key}"
 }
 
@@ -153,7 +153,7 @@ resource "aws_security_group" "http" {
 }
 
 resource "aws_elb" "lb" {
-    name = "tf-lb"
+    name = "tf-lb-${random_id.owner_id.b64}"
     subnets = [ "${aws_subnet.default.id}" ]
     security_groups = [ "${aws_security_group.http.id}",  "${aws_vpc.default.default_security_group_id}" ]
   
