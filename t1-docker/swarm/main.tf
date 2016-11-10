@@ -16,8 +16,15 @@ provider "aws" {
     secret_key = "${var.secret_key}"
 }
 
+resource "random_id" "keypair_id" {
+    keepers = {
+        public_key = "${var.public_key}"
+    }
+    byte_length = 4
+}
+
 resource "aws_key_pair" "key" {
-    key_name = "tf-key" 
+    key_name = "tf-key-${random_id.keypair_id.b64}"
     public_key = "${var.public_key}"
 }
 
