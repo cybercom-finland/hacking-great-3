@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
 	res.send('Hello world from ' + hostname + '\n');
 });
 
-app.listen(PORT);
-console.log('Running on http://localhost:' + PORT);
+app.listen(PORT, '0.0.0.0');
+console.log('Running on http://0.0.0.0:' + PORT);
