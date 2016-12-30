@@ -60,7 +60,8 @@ the generated output is colored noise that has some amplitude envelope structure
 
 Deep learning is like pulled pork. You have to cook it for a long time.
 
-After about 2 weeks of cooking (training) on an i5-4690 CPU @ 3.50GHz with 24 GB of memory (Note that the model is too large for any consumer grade GPU system) we got something like this: [generated.wav](https://github.com/cybercom-finland/hacking-great-3/raw/master/t3-communist-ai/samples/generated.wav). Possibly before the event the quality is a bit better, but not much.
+After about 2 weeks of cooking (training) on an i5-4690 CPU @ 3.50GHz with 24 GB of memory (Note that the model is too large for any consumer grade GPU system) we got something like this: [(temperature_temperaturedecimal_index).wav](https://github.com/cybercom-finland/hacking-great-3/raw/master/t3-communist-ai/samples/).
+Possibly before the event the quality is a bit better, but not much.
 
 ### Training
 
